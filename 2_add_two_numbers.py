@@ -1,4 +1,8 @@
 # https://leetcode.com/problems/add-two-numbers/
+'''
+Runtime: 88 ms, faster than 61.34% of Python3 online submissions for Add Two Numbers.
+Memory Usage: 13.8 MB, less than 90.14% of Python3 online submissions for Add Two Numbers.
+'''
 
 def addTwoNumbers(l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
     if 0 == l1.val and l1.next is None:
